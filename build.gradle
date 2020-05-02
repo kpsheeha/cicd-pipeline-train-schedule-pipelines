@@ -13,6 +13,7 @@ node {
 task build
 
 //declare a task to create a zip of the app
+//madee a change
 task zip(type: Zip) {
 	from ('.') {
 		include "*"
